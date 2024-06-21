@@ -1,0 +1,31 @@
+.header-link {
+     color: var(--color-brand);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+       color: var(--color-primary-dark);
+    }
+}
+
+.footer-link {
+   color: var(--color-primary-light);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+       color: var(--color-primary-dark);
+    }
+}
+
+.address-link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    font-style: normal;
+    margin-bottom: 16px;
+    transition: color 0.2s;
+
+    &:hover {
+        color: var(--color-primary-dark);
+    }
+}
